@@ -13,6 +13,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
       navigate('/auth', { replace: true })
     }
+    
   }, [navigate])
 
   return (

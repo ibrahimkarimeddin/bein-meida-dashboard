@@ -56,7 +56,7 @@ const useTableColumns  = () => {
               objectToEdit={row}
               showEdit={false}
               showView={true}
-              onDelete={() => deleteMutation.mutate({ product_id: row.id })}
+              onDelete={() => deleteMutation.mutate({ id: row.id })}
               />
         ),
       },

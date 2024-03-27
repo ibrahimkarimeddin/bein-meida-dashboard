@@ -11,14 +11,10 @@ function useNavigateOnSuccess(isSuccess :boolean , to_path:string , callbackAfte
             if (typeof callbackAfterSuccess === 'function') {
                 callbackAfterSuccess()
             }
-            if(to_path == '/service'){
-                
-                navigate(-1)
-
-            }else{
+           
 
                 navigate(to_path , {replace:true})
-            }
+            
         }
     },[isSuccess])
 
