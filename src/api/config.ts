@@ -1,5 +1,5 @@
 
-export const ImageBaseURL = `http://localhost:8000/`;
+export const ImageBaseURL = `http://91.107.124.108/`;
 
 
 export const BaseURL = `${ImageBaseURL}api/admin/`;
